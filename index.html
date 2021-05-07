@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鱼道在线监测系统</title>
+</head>
+<style>
+    body {
+        background-color: rgb(170, 163, 163);
+    }
+
+    div {
+        height: 200px;
+
+        background: oldlace url("images/shanshui2.jpg") no-repeat fixed top;
+
+    }
+
+    h1 {
+        font-size: 40px;
+        text-indent: 2em;
+        color: skyblue;
+    }
+
+    /* div {
+        height: 200;
+        background: url("images/shanshui1.jpg");
+
+    } */
+
+    span {
+        height: 400px;
+        display: inline-block;
+        border: rgb(196, 196, 192) 10px solid;
+
+    }
+
+    .vid {
+        margin-left: 30px;
+    }
+
+    .ui {
+        width: 700px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .ui li {
+        list-style: none;
+        width: 100px;
+        margin: 0 10px;
+        float: left;
+
+        /*该处换为display:inline-block;同样效果*/
+        margin: left 5em;
+
+    }
+
+    a {
+        list-style: none;
+        width: 70px;
+        height: 50px;
+        padding: 0 20px;
+        font-size: 20px;
+        line-height: 50px;
+        /* background: rgb(231, 226, 226); */
+        display: inline-block;
+        text-decoration: none;
+        color: rgb(50, 174, 205);
+        text-indent: 30px;
+    }
+
+    a:hover {
+        color: pink;
+    }
+</style>
+
+<body>
+    <div><br>
+        <h1>鱼道在线监测系统</h1><br>
+        <!-- 菜单栏 -->
+        <ul class="ui">
+            <li>
+                <a href="http:\\www.baidu.com">主页</a>
+            </li>
+            <li>
+                <a href="#">展示</a>
+            </li>
+            <li>
+                <a href="#">统计</a>
+            </li>
+            <li>
+                <a href="#">视频</a>
+            </li>
+            <li>
+                <a href="#">设置</a>
+            </li>
+        </ul>
+        <br><br>
+    </div>
+    <!-- 标题 align="center"-->
+
+    <br>
+
+    <!-- 显示红外轮廓图 -->
+    <span> <img src="images/fish.jpg " height=400px /></span>
+
+    <span class="vid">
+        <video height=400px controls>
+            <source src="eat.mkv" type="video/webm">
+        </video>
+    </span>
+</body>
+
+</html>
